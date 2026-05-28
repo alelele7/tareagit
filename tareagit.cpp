@@ -1,7 +1,12 @@
 #include <iostream>
 
+void saludo()
+{
+    std::cout << "Este es otro ejemplo de cambio.\n";
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
-    std::cout << "Este es un cambio simple.\n";
+    saludo();
 }
